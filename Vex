@@ -1,0 +1,5 @@
+int npt = nearpoint(1, @P);
+vector npos = point(1, "P", npt);
+int spt = nearpoint(0, npos);
+
+setpointgroup(0, "end", spt, 1);
